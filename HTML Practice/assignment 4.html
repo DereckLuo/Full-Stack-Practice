@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form class="" action="index.html" method="post">
+      <div class="">
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" name="" value="" placeholder="John" required>
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" name="" value="" placeholder="Smith" required>
+      </div>
+
+      <div class="">
+        <label for="male">Male</label>
+        <input id="male" name="sex" type="radio" name="" value="">
+        <label for="Female">Female</label>
+        <input id="female" name="sex" type="radio" name="" value="">
+        <label for="other">Other</label>
+        <input id="other" name="sex" type="radio" name="" value="">
+      </div>
+
+      <div class="">
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="" value="" placeholder="your email" required>
+        <label for="password">Password:</label>
+        <input pattern=".{5,10}" id="password" type="password" name="" value="" placeholder="your password" required title="5 to 10 characters"
+      </div>
+
+      <div class="">
+        <label for="birthday">Birthday:</label>
+        <select class="" name="" placeholder="Month">
+          <option value="">Month</option>
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+        </select>
+        <select class="" name="" placeholder="Day">
+          <option value="">Day</option>
+          <option value="1">01</option>
+          <option value="2">01</option>
+        </select>
+        <select class="" name="">
+          <option value="">Year</option>
+          <option value="2017">2017</option>
+        </select>
+      </div>
+
+      <div class="">
+        <label for="terms">I agree to the terms and conditions </label>
+        <input id="terms" type="checkbox" name="" value>
+      </div>
+
+      <input type="submit">
+    </form>
+  </body>
+</html>

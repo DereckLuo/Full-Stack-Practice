@@ -1,0 +1,21 @@
+h1 {
+  color : red;
+  /* border-color: purple; */
+  /* border-width: 5px; */
+  /* border-style: solid; */
+
+  border: 1px solid blue;
+}
+
+li {
+  color : orange;
+}
+
+h4 {
+  color: purple;
+  background : rgb(255,10,10);
+}
+
+body{
+  background:  pink;
+}

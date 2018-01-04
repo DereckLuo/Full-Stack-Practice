@@ -1,0 +1,27 @@
+h1{
+  font-family: Indie Flower;
+  padding: 30px auto;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.cell{
+  width: 100px;
+  height: 100px;
+  padding: auto auto auto auto;
+  /* background: pink; */
+}
+
+.row{
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+.column{
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
+table{
+  margin: auto;
+}
