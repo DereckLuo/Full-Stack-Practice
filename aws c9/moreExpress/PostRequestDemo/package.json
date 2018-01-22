@@ -1,0 +1,17 @@
+{
+  "name": "postrequestdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dereck Luo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "epress": "0.0.1-security",
+    "express": "^4.16.2"
+  }
+}
